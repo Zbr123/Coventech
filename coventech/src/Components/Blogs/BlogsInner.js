@@ -1,11 +1,13 @@
 import React from "react";
 import logo from "../../assets/logo.png"
+import { Link } from 'react-router-dom';
 
 const BlogsInner = (props) =>{
     return(
         <div className="col-span-1 row-span-1 flex items-center justify-center">
+            <Link to="/blog/post1">
             <div className="border hover:border-secondary rounded-lg py-8 px-4 w-full text-center">
-            <img src={props.src} className="w-full rounded-lg" />
+            <img src={props.src} className="w-full rounded-lg"/>
             <h2 className="text-md md:text-md lg:text-md font-bold mt-4 text-left">{props.title}</h2>
             <div className="flex rounded-lg mt-8">
             <div className="">
@@ -19,6 +21,8 @@ const BlogsInner = (props) =>{
             </div>
         </div>
             </div>
+            </Link>
+            
         </div>
     )
 }

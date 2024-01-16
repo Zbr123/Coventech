@@ -4,7 +4,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 const ServiceInner = (props) =>{
     return(
     <div className="col-span-1 row-span-1 flex items-center justify-center">
-        <div className="border border-secondary bg-primary rounded-lg py-8 px-4 w-full text-center hover:scale-105 transition-transform">
+        <div className="border border-secondary bg-primary rounded-lg py-8 px-4 w-full text-center hover:scale-105 transition-transform md:h-80">
         <Player
             autoplay
             loop

@@ -3,7 +3,7 @@ import backgroundImage from "../../assets/Hero.png";
 
 const SliderContent = (props) =>{
     return(
-    <div className="relative py-8 px-16 flex items-center border border-secondary w-[100%] rounded rounded-lg mt-16">
+    <div className="relative py-8 px-16 flex items-center border border-secondary w-[100%] rounded rounded-lg mt-16 h-96">
       {/* Background Image (visible on larger screens) */}
       <div
         className="absolute top-0 left-0 hidden md:block w-full h-full bg-cover bg-center"

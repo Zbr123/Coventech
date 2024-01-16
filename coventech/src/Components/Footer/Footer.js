@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Left Side */}
         <div className="mb-4 md:mb-0 text-md font-normal leading-9">
           <div className="flex mb-4 ">
-            <a href="https://www.linkedin.com/" className="mr-4">LinkedIn</a>
+            <a href="https://www.linkedin.com/company/co-ventech/mycompany/" className="mr-4">LinkedIn</a>
             <span className="mx-2">|</span>
             <a href="https://www.example.com/" className="mx-2">X</a>
             <span className="mx-2">|</span>

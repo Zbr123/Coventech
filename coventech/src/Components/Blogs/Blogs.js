@@ -1,12 +1,13 @@
 import React from "react";
 import Heading from "../../UI/Heading";
 import articleImage from "../../assets/Article_Image.png";
+import blog1 from "../../assets/blog1.png"
 import BlogsInner from "./BlogsInner";
 const data = [
     {
         id : 1,
-        image : articleImage,
-        title : "How to make GUI in Java with example",
+        image : blog1,
+        title : "Future Of QA Automation With AI",
         date : "Jan 10, 2022"
     },
     {
